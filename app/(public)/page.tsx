@@ -1,3 +1,6 @@
+import Hero from '@/components/Hero';
+import CoachesFeatures from '@/components/CoachesFeatures';
+import LearningPathSection from '@/components/LearningPathSection';
 import Footer from "@/components/Footer";
 
 export default function HomePage() {
@@ -8,18 +11,10 @@ export default function HomePage() {
         Landing page placeholder - Content to be implemented
       </p>
 
-
-
-      <Footer />
-    </div>
-import Hero from '@/components/Hero';
-import CoachesFeatures from '@/components/CoachesFeatures';
-
-export default function HomePage() {
-  return (
-    <>
       <Hero />
       <CoachesFeatures />
-    </>
+      <LearningPathSection />
+      <Footer />
+    </div>
   );
 }
