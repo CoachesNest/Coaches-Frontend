@@ -2,6 +2,7 @@ import Hero from '@/components/Hero';
 import CoachesFeatures from '@/components/CoachesFeatures';
 import LearningPathSection from '@/components/LearningPathSection';
 import Footer from "@/components/Footer";
+import CallToAction from '@/components/CallToAction';
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       </p>
 
       <Hero />
+      <CallToAction />
       <CoachesFeatures />
       <LearningPathSection />
       <Footer />
