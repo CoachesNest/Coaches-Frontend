@@ -39,8 +39,8 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
             ))}
           </div>
           <p className="text-purple-100 text-sm leading-relaxed">
-            "Mentoring on  Coacheschanged how I share expertise. The platform
-            makes it effortless to connect with driven learners."
+            &ldquo;Mentoring on  Coacheschanged how I share expertise. The
+            platform makes it effortless to connect with driven learners.&rdquo;
           </p>
         </div>
 
